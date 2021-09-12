@@ -17,7 +17,15 @@ class Manny {
     let name = "manny"
     func sayName() {
         print(name)
-    }    
+        say("hi", times: 3, true)
+    }
+    func nameLength(_ name:String) -> Int {
+        return name.count;
+    }
+    
+    func say(_ s:String, times:Int, _:Bool){
+    
+    }
 }
 struct Moe {
     
